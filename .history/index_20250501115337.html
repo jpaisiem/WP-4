@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: fit-content;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2.3%;
+  padding-right: 2%;
+}
+</style>
+<title>Growth as a writer - Home</title>
+</head>
+<body>
+    <div style="background-color: lightgray; display: flex; flex-direction: column; margin-top: 0%;">
+        <h1 style="text-align: center; background-color: lightgray; padding-top: 10px; margin-top: 0%;">Growth as a writer</h1>
+        <div style="align-items: center;">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+<button type="button" class="collapsible">Page Select</button>
+<div class="content">
+  <p><table>
+    <tr>
+        <th>Chapters</th>
+    </tr>
+    <tr>
+        <td><a href="index.html" style="color: black;">Home</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter1.html">Chapter 1</a></td>
+    </tr>
+     <tr>
+        <td><a href="Chapter2.html">Chapter 2</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter2.html" style="color: black;">Chapter 2</a></td>
+    </tr>
+  </table></p>
+</div>
+    </div>
+<div style="text-align: center;">
+     <h2 style="text-align: center;">Welcome to the home page!</h2>
+     <h3 style="font-size: 36; font-weight: normal;">To get started: click on the Page Select button, Next Select a chapter then click on it</h3>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+if(location.reload){
+    this.classList.toggle("collapsible");
+}
+</script>
+
+</body>
+</html>

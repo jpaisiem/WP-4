@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: fit-content;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2.3%;
+  padding-right: 2%;
+}
+p
+{
+ font-size: 25px;
+}
+</style>
+<title>Growth as a writer - Chapter 1</title>
+</head>
+<body>
+    <div style="background-color: lightgray; display: flex; flex-direction: column; margin-top: 0%;">
+        <h1 style="text-align: center; background-color: lightgray; padding-top: 10px; margin-top: 0%;">Growth as a writer</h1>
+         <div style="align-items: center;">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+<button type="button" class="collapsible">Page Select</button>
+<div class="content">
+  <p><table>
+    <tr>
+        <th>Chapters</th>
+    </tr>
+    <tr>
+        <td><a href="index.html">Home</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter1.html" style="color: black;">Chapter 1</a></td>
+    </tr>
+     <tr>
+        <td><a href="Chapter2.html">Chapter 2</a></td>
+    </tr>
+  </table></p>
+</div>
+    </div>
+<div style="text-align: center;">
+     <h2 style="text-align: center;">Chapter 1</h2>
+     <p>Traveling back in time, having a feeling of being transported to another world, gaining knowledge can affect your life along with others. <br>
+      All these are made possible because of writing. Hello I am Michael Paisie, a writer like everyone who has the ability to write. <br>
+      I have worked hard to improve my writing. Since taking CCP classes in highschool writing has been a major part of my life which I have worked to improve on. <br>
+      From the start of Junior year I have had to really criticize myself and others. This was new to me and as such my editing skills were not great. <br>
+      Neither were my edits. I was often harsher than I needed to be or not harsh enough. <br>
+      The article <q>Twenty-Five Pieces of Advice From Famous Writers That Are Actually Useful</q> states <q>Nothing will paralyze you more as  a writer than your own manuscript. <br>
+      We are our own worst critics</q>(Lavender). And she was writing, in fact through the whole composition 1 course my confidence as a writer was very low. <br>
+      I struggled to believe  I have any sort of high Level writing skills and since starting Composition 2 have grown to believe the right inspiration can turn anyone into a writer. <br>
+      This ties into the point of how <q>as writers we are accountable from ourselves alone. We must carve time for writing. No one else will do it for us</q>(Lavender). <br>
+      This was another struggle of mine to find the time to work on the writing outside of class time. I procrastinate a lot and didn't spend enough time writing my essays. 
+      This is one of the big don'ts; do not procrastinate it will come back to get you in the end. 
+      But do spend as much time as applicable working on improving your writing skills which can subsequently be done by writing essays. 
+      Another thing is do not go too deep into a rabbit hole within a single sentence as stated by Marie Lavender <q>Write short sentences. Or medium length. 
+      Even go for longer ones, if that works with the plot. 
+      But break up the flow so it becomes a true reading experience, and the audience doesn't get hung up on how you went into too much detail with one sentence</q>(Lavender). 
+      Tangents just confuse the reader and make everything more wordy.</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+if(location.reload){
+    this.classList.toggle("collapsible");
+}
+</script>
+
+</body>
+</html>

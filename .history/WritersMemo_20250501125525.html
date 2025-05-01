@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: fit-content;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2.3%;
+  padding-right: 2%;
+}
+p
+{
+ font-size: 25px;
+ text-align: left;
+ margin-left: 5%;
+}
+li
+{
+ font-size: 25px;
+ text-align: left;
+ margin-left: 5%;
+
+}
+</style>
+<title>Growth as a writer - Writer&apos;s Memo</title>
+</head>
+<body>
+    <div style="background-color: lightgray; display: flex; flex-direction: column; margin-top: 0%;">
+        <h1 style="text-align: center; background-color: lightgray; padding-top: 10px; margin-top: 0%;">Growth as a writer</h1>
+        <div style="align-items: center;">
+        </div>
+<button type="button" class="collapsible">Page Select</button>
+<div class="content">
+  <p><table>
+    <tr>
+        <th>Chapters</th>
+    </tr>
+    <tr>
+        <td><a href="index.html" style="color: purple;">Home</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter1.html" style="color: purple;">Chapter 1</a></td>
+    </tr>
+     <tr>
+        <td><a href="Chapter2.html" style="color: purple;">Chapter 2</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter3.html" style="color: purple;">Chapter 3</a></td>
+    </tr>
+     <tr>
+        <td><a href="WorksCited.html" style="color: purple;">Works&apos;s Cited</a></td>
+    </tr>
+    <tr>
+        <td><a href="WritersMemo.html" style="color: black;">Writer&apos;s Memo</a></td>
+    </tr>
+    <tr>
+        <td><a href="Epilogue.html" style="color: purple;">Epilogue</a></td>
+    </tr>
+  </table></p>
+</div>
+    </div>
+<div style="text-align: center;">
+     <h2 style="text-align: center;">Writer&apos;s Memo</h2>
+     <p> 
+      <ul>
+    <li>What I would like to have done differently as it pertains to this project</li><br><br>
+<li>I would have liked to spend more time planning things out (was difficult due to major time constraints)</li><br><br>
+<li>I would have liked to spend more time adding more content and present fourth better vocabulary, tone, and diction</li><br><br>
+<li>I would have liked to have gotten time to really look back at past papers and analyze them to determine what all factors I have improved on and still need to work on</li><br><br>
+<li>If I had the opportunity to go back  and start over I would  have had figured out my plan from day one instead of changing my mind on what type of creative work I was going to after realizing their wasn't going to be enough time for me to really incorporate my original ideas</li><br><br>
+<li>If I could go back and start from scratch I would have spent more time looking through articles to find my quotes.</li><br><br>
+</ul>
+</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+if(location.reload){
+    this.classList.toggle("collapsible");
+}
+</script>
+
+</body>
+</html>

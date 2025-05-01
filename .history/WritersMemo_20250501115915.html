@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: fit-content;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2.3%;
+  padding-right: 2%;
+}
+p
+{
+ font-size: 25px;
+ text-align: left;
+ margin-left: 5%;
+}
+</style>
+<title>Growth as a writer - Chapter 3</title>
+</head>
+<body>
+    <div style="background-color: lightgray; display: flex; flex-direction: column; margin-top: 0%;">
+        <h1 style="text-align: center; background-color: lightgray; padding-top: 10px; margin-top: 0%;">Growth as a writer</h1>
+        <div style="align-items: center;">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+<button type="button" class="collapsible">Page Select</button>
+<div class="content">
+  <p><table>
+    <tr>
+        <th>Chapters</th>
+    </tr>
+    <tr>
+        <td><a href="index.html">Home</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter1.html">Chapter 1</a></td>
+    </tr>
+     <tr>
+        <td><a href="Chapter2.html" style="color: black;">Chapter 2</a></td>
+    </tr>
+    <tr>
+        <td><a href="Chapter3.html" style="color: black;">Chapter 3</a></td>
+    </tr>
+    <tr>
+        <td><a href="WritersMemo.html" style="color: black;">Writer&apos;s Memo</a></td>
+    </tr>
+  </table></p>
+</div>
+    </div>
+<div style="text-align: center;">
+     <h2 style="text-align: center;">Writer</h2>
+     <p> 
+       Before taking  compositions 1 and 2 I couldn't edit at all but since then I have figured out my strengths and weaknesses. <br><br>
+       I have become great at pointing out when literature is too repetitive. <br><br>
+       On the other hand, I still have trouble with finding spacing and formatting errors. <br><br>
+       This is probably down to the fact I struggle at mla formatting and citations on my own papers. <br><br>
+       What I suggest to anyone looking to improve their writing is to work on improving their editing skills as well because not only will you gain another skill but it will also allow you
+       <br><br> to improve your own writing as well. Another very important part of growth as an editor was getting better at noticing punctuation issues such as having commas, colons, <br><br>
+        semicolons, etc. in the wrong places. Furthermore I have learned how to comment on google docs and comment on peers papers. <br><br>
+        In fact prior to Composition classes I had no idea how to peer edit my skills were a mess even looking for typos in my own papers felt like a chore; but now I have gotten used to it <br><br>
+        and have become a pro at finding errors having been underlined and then fixing them. I have also started to notice problems in my own writing and  in others  papers involving using <br><br>
+        the wrong tense of word or a word similar to it for example their  vs there; this especially has been a very difficult part of my writing which I have majorly struggled with.
+        <br><br> Overall my skills, whether it is working on my own paper or editing others, have vastly improved since I started CCP Composition Courses. 
+</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+if(location.reload){
+    this.classList.toggle("collapsible");
+}
+</script>
+
+</body>
+</html>
